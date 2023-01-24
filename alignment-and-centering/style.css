@@ -31,24 +31,35 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
-  border:10px solid mistyrose;
-  height:100vh;
-  align-items:flex-start;
+  border: 10px solid salmon;
+  align-items: flex-start;
+  height: 100vh;
+  align-content: space-between; 
+  flex-wrap: wrap;
+  justify-content: center;
 }
+ 
 
-.box {
-  width:33.333%;
-}
+ .box1 {
+  font-size: 15px;
+  width: 33.3%;
+  align-self: center;
+ }
+ .box3 {
+  font-size: 89px;
+  padding-top: 9px;
+ }
+ .box5 {
+  font-size: 34px;
+  padding-bottom: 9px;
+ }
+ .box9 {
+  font-size: 240px;
+ }
+ .box6 {
+  font-size: 93px;
+  align-self: center;
+ } 
 
-.box2 {
-  padding-bottom: 200px;
-}
 
-.box6 {
-  padding-bottom: 0;
-}
 
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
-}
