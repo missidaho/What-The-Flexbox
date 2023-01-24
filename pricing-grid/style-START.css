@@ -51,12 +51,32 @@ a {
 .price {
   font-size: 50px;
   font-family: serif;
-  margin: 10px 0;
+  margin: auto 0;
 }
 
 
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
-  
+  display: flex;
+  align-items: center;
+  border: red 1px solid;
+}
+.plan {
+  flex:1;
+  background: rgba(255, 255, 255, 0.27);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.plan cta {
+  align-items: flex-end;
+ 
+}
+.plan>* {
+  flex: 1;
+  flex-basis: 100%;
 }
